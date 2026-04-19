@@ -16747,7 +16747,7 @@ angular
             : dc("html5-video-player")
               ? ((this.Mk = !0), this.Gg())
               : this.gH.get(
-                    "/leanback_ajax",
+                    "../leanback_ajax",
                     { action_player_template: 1, hl: this.fv.Ha, override_hl: 1 },
                     w(this.oT, this)
                 );
@@ -27488,7 +27488,7 @@ angular
         f = [
             {
                 name: "featuredService",
-                path: "/leanback_ajax",
+                path: "../leanback_ajax",
                 parser: "featuredParser",
                 paramKey: null,
                 params: { action_featured: 1, client: "lb4", hl: "" },
