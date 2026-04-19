@@ -10185,7 +10185,7 @@ angular
                 client_id: this.Cn(),
                 client_secret: this.kt(),
                 code: a,
-                grant_type: "http://web.archive.org/web/20131014082644/http://oauth.net/grant_type/device/1.0",
+                grant_type: "http://oauth.net/grant_type/device/1.0",
             },
             f = w(function (e) {
                 this.CV(e, a, b, c);
@@ -14427,7 +14427,7 @@ angular
             this.w && (b = this.w.dO(this));
             var c = w(this.hO, this);
             b ||
-                ((b = new Sg("//web.archive.org/web/20131014082644/http://www.google.com/images/cleardot.gif")),
+                ((b = new Sg("https://www.google.com/images/cleardot.gif")),
                 b.Ag());
             Qh(b.toString(), 1e4, c);
         } else T(2);
@@ -15840,7 +15840,7 @@ angular
         return this.YE(a, "vi", b);
     };
     Mi.prototype.YE = function (a, b, c) {
-        return this.wX + "//web.archive.org/web/20131014082644/http://i1.ytimg.com/" + b + "/" + a + "/" + c + ".jpg";
+        return this.wX + "https://i1.ytimg.com/" + b + "/" + a + "/" + c + ".jpg";
     };
     Mi.prototype.FZ = function (a) {
         return 24 == a.length ? a.substr(2) : a;
@@ -16549,7 +16549,7 @@ angular
                 : (this.mm.push(a),
                   1 < this.mm.length ||
                       Eg(
-                          "http://web.archive.org/web/20131014082644/http://www.gstatic.com/cast/js/receiver/1.0/cast_receiver.js",
+                          "http:https://www.gstatic.com/cast/js/receiver/1.0/cast_receiver.js",
                           { timeout: 3e4 }
                       ).hi(w(this.BT, this))));
     };
@@ -17849,12 +17849,12 @@ angular
         this.Cc.append(e, b);
         var f = this.createElement(
             "batch:id",
-            "http://web.archive.org/web/20131014082644/http://schemas.google.com/gdata/batch"
+            "http:https://schemas.google.com/gdata/batch"
         );
         this.Cc.append(f, a);
         a = this.createElement("link");
         tj(a, {
-            rel: "http://web.archive.org/web/20131014082644/http://schemas.google.com/g/2005#batch",
+            rel: "http:https://schemas.google.com/g/2005#batch",
             type: "application/atom+xml",
             href: b,
         });
@@ -17870,7 +17870,7 @@ angular
         this.Cc.append(e, a);
         var f = this.createElement(
             "batch:operation",
-            "http://web.archive.org/web/20131014082644/http://schemas.google.com/gdata/batch"
+            "http:https://schemas.google.com/gdata/batch"
         );
         tj(f, { type: "query" });
         this.Cc.appendChild(c, e);
@@ -19452,8 +19452,8 @@ angular
     z(Xj, Kg);
     Xj.prototype.Vc = function () {
         return this.Sc.useTestInnerTube
-            ? "//web.archive.org/web/20131014082644/http://www-googleapis-test.sandbox.google.com/youtubei/vi"
-            : "//web.archive.org/web/20131014082644/http://www.googleapis.com/youtubei/vi";
+            ? "https://www-googleapis-test.sandbox.google.com/youtubei/vi"
+            : "https://www.googleapis.com/youtubei/vi";
     };
     Xj.prototype.Fj = function () {
         return "POST";
@@ -20695,7 +20695,7 @@ angular
     fl.prototype.eV = function () {
         var a = this.Vb.kg();
         x(a, this.UU.IU());
-        this.Ri("//web.archive.org/web/20131014082644/http://www.youtube-nocookie.com/device_204", a, null, !0);
+        this.Ri("https://www.youtube-nocookie.com/device_204", a, null, !0);
     };
     fl.inject = ["environmentModel", "privateDataService", "statsService"];
     function gl(a, b, c, e, f) {
