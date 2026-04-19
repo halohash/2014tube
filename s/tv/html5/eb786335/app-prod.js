@@ -15840,7 +15840,7 @@ angular
         return this.YE(a, "vi", b);
     };
     Mi.prototype.YE = function (a, b, c) {
-        return this.wX + "https://i1.ytimg.com/" + b + "/" + a + "/" + c + ".jpg";
+        return "https://i1.ytimg.com/" + b + "/" + a + "/" + c + ".jpg";
     };
     Mi.prototype.FZ = function (a) {
         return 24 == a.length ? a.substr(2) : a;
