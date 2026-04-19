@@ -8814,6 +8814,10 @@ angular
         return c;
     };
     d.transformResponse = function (a) {
+        if (location.hostname !== "halohash.github.io") {
+            console.log("DEBUG: NOT A HASH PAGE, SKIPPING...")
+         return null;
+        };
         var b = a.getResponseHeader("content-type"),
             c;
         0 <= b.indexOf("xml")
@@ -20972,7 +20976,7 @@ angular
         return !0;
     };
     d.yN = function () {
-        this.ck("http:https://yt2009.truehosting.net/tv");
+        this.ck("https://yt2009.truehosting.net/tv");
         return !0;
     };
     d.vN = function () {
