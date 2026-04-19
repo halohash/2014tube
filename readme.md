@@ -9,7 +9,6 @@ This project aims to replicate the look and feel of YouTube as it was in 2014 â€
 ## ğŸŒ Live Demo
 
 https://halohash.github.io/2014tube/
-*(or your Render URL if you're using backend features)*
 
 ---
 
