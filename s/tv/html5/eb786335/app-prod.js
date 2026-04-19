@@ -20058,6 +20058,7 @@ angular
             STmost_popular_Education: "icon-education",
             STmost_popular_Animals: "icon-pets",
             STmost_popular: "icon-star",
+            PLt4i9yyzHCvSLHKLdvUBHH49uaCFqDTmO: "icon-star",
         };
         this.Qa("sets", this.sV);
     }
