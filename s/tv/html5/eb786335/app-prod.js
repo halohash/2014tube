@@ -16747,7 +16747,7 @@ angular
             : dc("html5-video-player")
               ? ((this.Mk = !0), this.Gg())
               : this.gH.get(
-                    "../leanback_ajax",
+                    "../leanback_ajax2",
                     { action_player_template: 1, hl: this.fv.Ha, override_hl: 1 },
                     w(this.oT, this)
                 );
